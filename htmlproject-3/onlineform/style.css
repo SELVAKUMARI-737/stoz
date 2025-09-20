@@ -1,0 +1,33 @@
+.form{
+    background-color: aqua;
+    margin: 50px 80px;
+    padding: 30px;   
+
+}
+h1{  
+
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font: weight 5px;
+  font-style: normal;
+  margin-top: 100px;
+  margin-left: 190px;
+  margin-bottom: 8px;
+  position: relative;
+  
+
+}
+.container{
+    background-color: rgb(217, 100, 230);
+  
+}
+.sub-btn{
+  background-color: blueviolet;
+  box-sizing: border-box;
+  padding: 9px;
+
+  
+}
+p{
+  text-align:justify;
+}
