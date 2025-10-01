@@ -1,0 +1,307 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display:inline-block;
+    color: #FFFFFF;
+}
+body{
+    font-family: "Inter", sans-serif;
+    background-color: #000000;
+    color:#FFFFFF ;
+
+    
+}
+.container{
+        max-width: 1300px;
+        max-height: 810px;
+        margin: 0px auto;
+        padding: 20px  30px;
+}
+         /* header */
+.near-btn{
+    display: flex;
+}
+nav{
+    
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-wrapper nav{
+    display: flex;
+    gap: 30px;
+}
+/* section */
+
+.homepage-wrapper{
+    padding:100px 0px ;
+    text-align: center;
+    
+}
+.homepage-wrapper h1{
+    font-size: 70px;
+    font-weight: 500;
+    padding-bottom: 54px;
+    
+}
+.homepage-wrapper p{
+    padding-bottom: 45px;
+}
+/* 2nd page */
+.about-wrapper{
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 200px;
+}
+.content div{
+    width: 25%;
+    padding: 30px 30px;
+    
+}
+.about-wrapper h1{
+    font-size: 56px;
+    font-weight: 500;
+    padding-bottom: 20px;
+
+}
+.about-wrapper p{
+    font-size: 14px;
+    font-weight:200;
+
+}
+.about-p{
+    padding-bottom: 9px;
+}
+/* service section */
+
+.head-h1{
+    font-size: 56px;
+    font-weight: 500;
+    padding-bottom: 31px;
+    text-align: center;
+    
+}
+.head-p{
+    font-size: 20px;
+    font-weight: 200;
+    padding-bottom: 120px;
+    text-align: center;
+    
+}
+.service-content{
+    display: flex;
+    gap: 100px;
+    padding-bottom:80px;
+    align-items: center;
+    padding-left:200px;
+    
+}
+
+.service-content div h2{
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom:30px;
+}
+.subHead-p{
+    font-size: 20px;
+    font-weight:700;
+    padding-bottom: 20px;
+    
+}
+.sub-p{
+    font-size: 14px;
+    font-weight: 200;
+    padding-bottom:30px;
+
+} 
+.service1-content{
+    display: flex;
+    align-items: center;
+
+}
+
+.service1-content div h2{
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom:30px;
+}
+.service2-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+    padding-bottom:200px;
+}
+
+.intro-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.intro-section img {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.intro-section h1 {
+    font-size: 60px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1.1;
+}
+
+.partners-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:8px;
+
+}
+
+.partner-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.partner-item img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+.service3-content {
+    display: flex; /* Use flexbox to center the whole content block */
+    align-items: center; /* This will horizontally center the intro-section */
+    text-align: center; /* Centers text within the intro-section */
+    flex-direction: column;
+}
+
+.service3-content .intro1-section h1 {
+    font-size: 57px;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+
+.service3-content .intro1-section .first-p {
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.service3-content .intro1-section .second-p {
+    font-size: 22px;
+    font-weight: 400;
+    padding-bottom: 30px;
+
+}
+
+.service3-content .intro1-section .author-name {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px; 
+    margin-bottom: 10px;
+}
+
+.service3-content .author-details {
+    display: flex;
+    align-items: center;
+    justify-content:center; 
+    gap: 10px; 
+    padding-bottom: 250px;
+}
+
+.service3-content .arrow {
+    max-width: fit-content; 
+
+
+}
+.intro2-section{
+    display: flex;
+    justify-content: center;
+    gap:200px;
+    padding-bottom: 180px;
+}
+.intro-left{
+    position:relative;
+
+}
+.intro-left h1{
+    font-size:53px;
+    font-weight:500;
+    position: relative;
+    z-index: 2;
+}
+.intro-left img{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:300%;
+    height:fit-content;
+    z-index: 1;
+    opacity: 0.8;
+
+    
+}
+.intro2-section p{
+    font-size: 15px;
+    font-weight: 300;
+    padding-bottom: 40px;
+}
+.intro3-section{
+    align-content: center;
+    text-align: center;
+}
+.intro3-section h1{
+    padding-bottom: 30px;
+    font-size: 56px;
+    font-weight: 500;
+
+}
+.intro3-section p{
+    font-size: 15px;
+    font-weight: 200;
+    padding-bottom: 40px;
+}
+.intro3-section img{
+    max-width: fit-content;
+    margin-bottom: 100px;
+    border-color: #fff;
+}
+
+/* New and corrected footer styles */
+.footer-content {
+ display: flex;
+ justify-content: space-between;
+ align-items: flex-start;
+ max-width: 1300px;
+ margin: 0 auto;
+ padding: 20px 30px;
+}
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+footer p{
+    font-size: small;
+    font-weight: 200;
+}
